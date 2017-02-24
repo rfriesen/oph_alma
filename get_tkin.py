@@ -4,11 +4,8 @@
 # Also ATCA/VLA data where available. 
 ##################################################
 import numpy as np
-import aplpy
-import matplotlib.pyplot as plt
 from astropy.coordinates import Angle,SkyCoord
 from astropy.coordinates import ICRS,Galactic
-from astropy.wcs.utils import skycoord_to_pixel
 import astropy.units as u
 from astropy import wcs
 from astropy.io import fits
